@@ -1,0 +1,16 @@
+version: "3.9"
+
+services:
+  backend:
+    build: ./backend 
+    environment:
+      - SERVER_LISTEN_URI=tcp://0.0.0.0:5555
+    volumes:
+      - myvol2:/app 
+  frontend:
+    build: ./frontend
+    environment:
+      - SERVER_CONNECT_URI=tcp://backend:5555
+    
+volumes:
+  myvol2:
