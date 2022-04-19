@@ -1,8 +1,8 @@
-Implementation of simple digit image classification
+# Python Digit Image Classification
 
-key features:
-- ZMQ is used for message passing
-- separate/simultaneous simulations are provided
-- docker support is enabled for simultaneous version
+## Key Features:
+- zmq is used for message passing
+- includes separate(v1) and simultaneous(v2) demos
+- docker support is enabled for simultaneous version (v2)
 
-see v1/v2 sub-folders for details
+See readme in v1/v2 sub-folders for more details
