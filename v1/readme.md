@@ -5,5 +5,3 @@ Separate Server/Client Digit Image Classification:
 - start client in another shell: python client.py
 - you should see query images saved locally and results displayed 
 
-1. docker build . --tag digit-classifier
-2. docker run -it digit-classifier
